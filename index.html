@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"
+      integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../js/p5.js"></script>
+    <!-- the p5 sound library -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"
+      integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/control.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/scene.js"></script>
+    <script src="js/item.js"></script>
+    <script src="js/info.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/slime.js"></script>
+    <script src="js/materials.js"></script>
+    <script src="js/variables.js"></script>
+    <script src="js/setup.js"></script>
+    <script src="js/sketch.js"></script>
+
+    <style>
+      @font-face {
+        font-family: "pixelbold";
+        src: url("font/ufonts.com_01problematixbold.ttf");
+      }
+      * {
+        font-family: pixelbold;
+      }
+      body {
+        background-color: black;
+        color: white;
+        font: 13px "Helvetica Neue", Helvetica, sans-serif;
+        width: 1400px;
+      }
+      #container {
+        margin: auto;
+        width: 1400px;
+      }
+      #my-canvas {
+        margin: auto;
+        min-width: 1000px;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: -5px;
+      }
+      h2 {
+        text-align: center;
+        margin-top: -2px;
+        margin-bottom: -5px;
+      }
+      h3 {
+        text-align: center;
+        line-height: 30px;
+      }
+      #content {
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 1284px;
+        top: 755px;
+        left: 15px;
+        border: 2px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>GAME</h1>
+    </div>
+  </body>
+</html>
