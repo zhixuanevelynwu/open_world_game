@@ -1,4 +1,4 @@
-# Random Forest: a Terraria Inspired Open World Game
+# A Terraria Inspired Open World Game
 
 
 ## About <a name = "about"></a>
